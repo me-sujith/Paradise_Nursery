@@ -1,0 +1,59 @@
+html, body, #root {
+  height: 100%;
+}
+
+:root {
+  --green-900: #0b3d2e;
+  --green-700: #156f57;
+  --green-500: #20a37a;
+  --green-200: #c9efe0;
+  --text-900: #0a0f14;
+  --text-600: #35434e;
+  --bg: #f6faf8;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: var(--text-900);
+  background: var(--bg);
+}
+
+a { color: inherit; text-decoration: none; }
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.btn {
+  appearance: none;
+  border: 0;
+  padding: 10px 16px;
+  background: var(--green-700);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn.secondary { background: transparent; color: var(--green-700); border: 2px solid var(--green-700); }
+.btn.icon { display: inline-flex; align-items: center; gap: 8px; }
+
+.grid {
+  display: grid;
+  gap: 16px;
+}
+.grid.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.grid.cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+
+.card {
+  background: white;
+  border: 1px solid #e9eef0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.card-body { padding: 12px; }
+
+.muted { color: var(--text-600); }
