@@ -27,7 +27,7 @@ A beautiful React-based shopping application for houseplants, built with modern 
 ### Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/Paradise_Nursery.git
+git clone https://github.com/me-sujith/Paradise_Nursery.git
 cd Paradise_Nursery
 ```
 
@@ -66,7 +66,7 @@ This project is configured for GitHub Pages deployment using GitHub Actions. The
 1. Create a new repository on GitHub named `Paradise_Nursery`
 2. Push your code to GitHub:
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/Paradise_Nursery.git
+git remote add origin https://github.com/me-sujith/Paradise_Nursery.git
 git branch -M main
 git push -u origin main
 ```
@@ -81,7 +81,7 @@ git push -u origin main
 
 ## Live Demo
 
-Your app will be available at: `https://YOUR_USERNAME.github.io/Paradise_Nursery/`
+Your app will be available at: `https://me-sujith.github.io/Paradise_Nursery/`
 
 ## Contributing
 
@@ -90,3 +90,7 @@ This is a course project for IBM's Developing Front-End Apps with React course.
 ## License
 
 This project is created for educational purposes.
+
+---
+
+**Status**: Repository is now public and ready for deployment! 🚀
